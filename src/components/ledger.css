@@ -1,0 +1,60 @@
+.resultAmount_red .resultAmount_green .resultAmount_blue {
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 15vh;
+    padding: 10px;
+}
+
+.resultAmount_red {
+   color: rgb(182, 65, 65);
+   border: 2px solid  rgb(182, 65, 65);
+   height: 15vh;
+   padding: 10px;
+
+}
+
+.resultAmount_blue {
+    color: rgb(36, 123, 252);
+    border: 2px solid rgb(36, 123, 252);
+    height: 15vh;
+    padding: 10px;
+
+}
+
+.resultAmount_green {
+    color: green;
+    border: 2px solid green;
+    height: 15vh;
+    padding: 10px;
+}
+
+.row_left {
+    display:inline-flex;
+    margin-left: 5vh;
+}
+
+.row_top {
+    margin-top: 10px;
+}
+
+.row_center {
+    text-align:center;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background: #EEE;
+    
+}
